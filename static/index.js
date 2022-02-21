@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '加油！再吃一点';
+        if (cps <= 8) return '坚持！可能小吭叽快被吃完了？';
+        if (cps <= 10)  return '已经……结束了么';
+        if (cps <= 15) return '马上就要吃完小吭叽了！（肯定）';
+        return '你是什么小狗逼';
     }
 
     function toStr(obj) {
